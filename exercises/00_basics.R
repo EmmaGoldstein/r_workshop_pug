@@ -134,6 +134,8 @@ single_number <- 2
 
 # 4.3) Assign something to a variable with a name of your choice.
 
+hallo <- 1
+
 # 4.4) Examine what happens here. What is the result? What do you think will 
 #      single_number contain now? 2 or 6? Run single_number in the console to 
 #      find out whether you were right!
@@ -226,6 +228,8 @@ this-is-kebab-case <- 1
 # you can overwrite functions (we'll learn about those later). Here, I overwrite 
 # the mean() function:
 
+mean() <- 4
+
 mean <- 3.4
 mean
 # Luckily, the function still does it's job!
@@ -259,6 +263,7 @@ T
 # exercise, quite a lot of stuff as piled up. As me move to the next exercise, 
 # we want to start with a clean slate. We can clean everything we have in our 
 # environment by running the command:
+
 
 rm(list = ls())
 
